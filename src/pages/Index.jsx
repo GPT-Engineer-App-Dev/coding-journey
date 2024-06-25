@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const Index = () => {
   return (
@@ -53,6 +54,11 @@ const Index = () => {
               </form>
             </TabsContent>
           </Tabs>
+          <div className="mt-4 text-center">
+            <Link to="/courses">
+              <Button>View Courses</Button>
+            </Link>
+          </div>
         </CardContent>
       </Card>
     </div>
