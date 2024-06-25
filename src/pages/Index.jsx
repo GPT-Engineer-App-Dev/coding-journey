@@ -59,6 +59,11 @@ const Index = () => {
               <Button>View Courses</Button>
             </Link>
           </div>
+          <div className="mt-4 text-center">
+            <Link to="/code-editor">
+              <Button>Open Code Editor</Button>
+            </Link>
+          </div>
         </CardContent>
       </Card>
     </div>
